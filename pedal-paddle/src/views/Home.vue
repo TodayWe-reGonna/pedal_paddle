@@ -1,0 +1,18 @@
+<template>
+  <div class="home">
+    <weather />
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+
+import Weather from "../components/weather.vue";
+
+export default {
+  name: "Home",
+  components: {
+    Weather,
+  },
+};
+</script>
